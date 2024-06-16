@@ -1,0 +1,93 @@
+.participants {
+    padding: 120px 20px 0 20px;
+    position: relative;
+}
+
+.participants_carousel-wrapper {
+    max-width: 335px;
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 100px;
+    overflow: hidden;
+}
+.participants_carousel-card .carousel-img img {
+    width: 244px;
+    height: 244px;
+    object-fit: cover;
+}
+.participants_carousel-name {
+    padding-top: 28px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    text-align: left;
+    color: var(--grey);
+}
+.participants_carousel-title {
+    padding-top: 8px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: var(--grey);
+    opacity: .6;
+}
+.participants_carousel-button {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    text-align: left;
+    color: var(--blue);
+    margin-top: 20px;
+    padding: 12px;
+    border: 1px solid var(--blue);
+    border-radius: 62px;
+    background-color: var(--white);
+    transition: all .5s ease;
+}
+.participants_carousel-navigation {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.participants_carousel-btn {
+    width: 36px;
+    height: 36px;
+    border-radius: 100%;
+    background-color: var(--grey);
+    border: 0;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .5s ease;
+}
+.pagination__numbers {
+    padding: 0 14px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: left;
+    color: var(--grey);
+}
+.next_number {
+    opacity: .6;
+}
+.participants_carousel {
+    display: grid;
+    grid-template-columns: repeat(6, 335px);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0;
+    grid-row-gap: 0;
+    transition: all .5s ease;
+    cursor: pointer;
+}
+.participants_carousel-card {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}

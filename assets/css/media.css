@@ -1,0 +1,252 @@
+@media screen and (min-width: 1366px) {
+
+    .header {
+        position: absolute;
+    }
+    .main__section_content {
+        flex-direction: row;
+    }
+    .logo_wrapper {
+        margin: 26px 0 0 72px;
+    }
+    .main__section_content {
+        padding: 0;
+        flex-grow: 1;
+        align-items: stretch;
+        justify-content: center;
+    }
+    .main__section_text-wrapper {
+        max-width: 542px;
+    }
+    .main__section_btns {
+        padding: 40px 0 0 0;
+        flex-direction: row;
+    }
+    .main__section_text {
+        padding-left: 72px;
+        max-width: 683px;
+        align-self: stretch;
+        align-content: center;
+    }
+    .sun {
+        max-width: 634px;
+        left: 0;
+    }
+    .city {
+        max-height: 452px;
+        right: -140px;
+    }
+    .queen {
+        max-height: 237px;
+        top: 195px;
+        transform: rotate(8deg);
+    }
+    .king {
+        max-height: 238px;
+        left: 40px;
+        bottom: 180px;
+    }
+    .horse {
+        max-height: 213px;
+        left: 155px;
+        transform: rotate(0deg);
+    }
+    .pawn {
+        max-height: 122px;
+        left: 533px;
+        bottom: 27px;
+    }
+    .mob_visible {
+        display: none;
+    }
+    .tournament__block_img.mob_hidden {
+        display: block;
+    }
+    .tournament__block {
+        display: flex;
+        column-gap: 64px;
+        justify-content: center;
+        align-items: center;
+    }
+    .tournament__block_text {
+        width: 100%;
+        max-width: 764px;
+        display: inline;
+        font-size: 36px;
+        line-height: 49px;
+    }
+    .tournament__block_text div {
+        display: inline;
+    }
+    .support__section {
+        padding: 0;
+        padding-top: 80px;
+        row-gap: 64px;
+    }
+    .seance__block {
+        display: flex;
+        column-gap: 44px;
+    }
+    .seance__block_img {
+        width: 100%;
+        max-width: 474px;
+        margin-left: -27px;
+    }
+    span.mob_hidden {
+        display: inline;
+    }
+    .payment__table_row {
+        flex-direction: row;
+        padding: 0;
+    }
+    .payment__table_description {
+        width: 50%;
+        padding: 16px 0;
+        border-right: 2px solid var(--light-grey);
+    }
+    .payment__table_data {
+        width: 50%;
+        padding: 16px 0 16px 16px;
+    }
+    .payment__table .payment__table_row:first-child .payment__table_description {
+        padding-top: 0;
+    }
+    .payment__table .payment__table_row:first-child .payment__table_data {
+        padding-top: 0;
+    }
+    .payment__table .payment__table_row:last-child .payment__table_description {
+        padding-bottom: 0;
+    }
+    .payment__table .payment__table_row:last-child .payment__table_data {
+        padding-bottom: 0;
+    }
+    .payment__appeal.blue_text {
+        padding-top: 48px;
+    }
+    section.stages__section {
+        padding-top: 200px;
+        width: 100%;
+    }
+    .stages__section_text {
+        max-width: 806px;
+        width: 100%;
+        padding: 0;
+        position: relative;
+    }
+    .stages__section_text .blue_text {
+        padding-top: 0;
+        max-width: 280px;
+        position: absolute;
+        bottom: 10px;
+        left: 301px;
+    }
+    .stages__section_blocks-container {
+        padding-top: 54px;
+    }
+    .stages__section_block {
+        padding: 20px;
+        background-image: url(/img/stages-block-bg.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        align-self: stretch;
+        width: 100%;
+    }
+    .item-5 .stages__section_block {
+        width: 808px;
+    }
+    .stages__section_block-text {
+        max-width: 322px;
+        line-height: 24px;
+        font-size: 20px;
+    }
+    .item-2 .stages__section_block-text {
+        max-width: 302px;
+    }
+    .item-5 .stages__section_block-text {
+        max-width: 416px;
+    }
+    .stages__section_blocks {
+        display: grid;
+        grid-template-columns: repeat(3, 394px);
+        grid-template-rows: repeat(2, 112px) 136px;
+        grid-column-gap: 20px;
+        grid-row-gap: 20px;
+        height: fit-content;
+    }
+    .stages__section_blocks-item.item-1 { grid-area: 1 / 1 / 2 / 3; }
+    .stages__section_blocks-item.item-2 { grid-area: 1 / 3 / 3 / 4; }
+    .stages__section_blocks-item.item-3 { grid-area: 2 / 1 / 3 / 3; }
+    .stages__section_blocks-item.item-4 { grid-area: 3 / 1 / 4 / 2; }
+    .stages__section_blocks-item.item-5 { grid-area: 3 / 2 / 4 / 4; }
+
+    .stages__section_pagination-wrapper {
+        display: none;
+    }
+    .stages__section_blocks-wrapper {
+        flex-direction: row;
+        gap: 20px;
+        background-image: none;
+        min-height: 112px;
+        padding: 0;
+    }
+
+    .item-2 .stages__section_blocks-wrapper {
+        min-height: 244px;
+    }
+    .item-4 .stages__section_blocks-wrapper, .item-5 .stages__section_blocks-wrapper {
+        min-height: 136px;
+    }
+    .stages__section_blocks-item {
+        position: relative;
+        opacity: 1;
+        padding: 0;
+    }
+    .stages__section_image {
+        top: unset;
+        bottom: 20px;
+        left: 870px;
+    }
+    .participants {
+        padding: 200px 0 0 0;
+    }
+    .participants_carousel-wrapper {
+        max-width: 1222px;
+        padding-top: 60px;
+        padding-bottom: 140px;
+    }
+    .participants_carousel-card .carousel-img img {
+        width: 320px;
+        height: 320px;
+    }
+    .participants_carousel-title {
+        padding-top: 6px;
+    }
+    .participants_carousel-button:hover {
+        color: var(--white);
+        background-color: var(--blue);
+        cursor: pointer;
+    }
+    .participants_carousel-navigation {
+        margin-top: 0;
+        position: absolute;
+        top: 210px;
+        right: 0;
+    }
+    .participants_carousel-btn {
+        width: 44px;
+        height: 44px;
+    }
+    .participants_carousel-btn:hover {
+        background-color: var(--yellow);
+    }
+    .participants_carousel {
+        grid-template-columns: repeat(6, 394px);
+        grid-column-gap: 20px;
+    }
+    .footer_content {
+        padding-top: 40px;
+        padding-bottom: 72px;
+        max-width: 1222px;
+        margin: 0 auto;
+    }
+}

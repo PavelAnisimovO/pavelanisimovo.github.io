@@ -1,0 +1,116 @@
+.main__section {
+    min-height: 812px;
+    min-width: 100vw;
+    width: 100%;
+    background-image: url("/img/main-bg.png");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.header {
+    max-width: 1366px;
+    width: 100%;
+}
+.logo_wrapper {
+    width: 213px;
+    height: 32px;
+    margin: 18px 20px 0 20px;
+}
+.header_logo {
+    width: 100%;
+    height: 100%;
+}
+.main__section_content {
+    max-width: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 40px;
+    overflow: hidden;
+}
+.main__section_text {
+    max-width: 542px;
+    width: 100%;
+}
+.main__section_header {
+    display: block;
+    text-align: right;
+}
+.main__section_content p {
+    text-align: center;
+    padding-top: 24px;
+}
+.main__section_btns {
+    padding: 32px 20px 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 16px;
+}
+.pointer {
+    display: block;
+    width: 6px;
+    height: 6px;
+    background-color: var(--white);
+    border-radius: 100%;
+}
+.main__section_imgs {
+    position: relative;
+    min-height: 291px;
+    width: 100%;
+    max-width: 683px;
+}
+.main__section_imgs img {
+    position: absolute;
+}
+.sun {
+    max-width: 297px;
+    width: 100%;
+    top: -73px;
+    left: calc(50vw - 148px);
+    z-index: 1;
+}
+.city {
+    max-height: 247px;
+    height: 100%;
+    bottom: -10px;
+    width: auto;
+    right: calc(50% - 293px);
+    z-index: 4;
+}
+.horse {
+    max-height: 122px;
+    height: 100%;
+    bottom: -5px;
+    left: calc(50% - 49px);
+    z-index: 5;
+    transform: rotate(-10deg);
+}
+.king {
+    max-height: 117px;
+    height: 100%;
+    z-index: 3;
+    transform: rotate(-6deg);
+    bottom: 104px;
+    left: calc(50% - 122px);
+}
+.queen {
+    max-height: 105px;
+    height: 100%;
+    z-index: 3;
+    transform: rotate(15deg);
+    bottom: 164px;
+    left: calc(50% + 49px);
+}
+.pawn {
+    max-height: 60px;
+    height: 100%;
+    z-index: 5;
+    bottom: 11px;
+    left: calc(50% + 150px);
+}

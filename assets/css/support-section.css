@@ -1,0 +1,68 @@
+.support__section {
+    display: flex;
+    flex-direction: column;
+    row-gap: 34px;
+    padding: 48px 20px 0 19px;
+}
+.support__section img {
+    max-width: 100%;
+    width: 100%;
+}
+.tournament__block_text {
+    font-family: "Merriweather", serif;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 38px;
+    text-align: left;
+    color: var(--grey);
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    row-gap: 24px;
+}
+.tournament__block_text .red-text {
+    color: var(--red);
+}
+.tournament__block_img.mob_hidden {
+    display: none;
+}
+.payment__table {
+    display: flex;
+    flex-direction: column;
+    padding-top: 18px;
+}
+.payment__table_row {
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+    padding: 16px 0;
+    border-bottom: 2px solid var(--light-grey);
+}
+.payment__table_row:last-child {
+    border-bottom: none;
+}
+.payment__table_row .discount {
+    text-decoration: 2px line-through var(--red);
+}
+.payment__table_description {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: var(--grey);
+}
+.payment__table_data {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    color: var(--grey);
+}
+.payment__appeal {
+    padding-top: 24px;
+}
+span.mob_hidden {
+    display: none;
+}

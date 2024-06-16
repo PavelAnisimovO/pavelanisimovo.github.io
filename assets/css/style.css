@@ -1,0 +1,109 @@
+@import "buttons.css";
+@import "variables.css";
+@import "main-section.css";
+@import "support-section.css";
+@import "stages-section.css";
+@import "participants-section.css";
+@import "footer.css";
+@import "media.css";
+
+h1 {
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 36px;
+    line-height: 40px;
+    text-transform: uppercase;
+    padding: 0 20px;
+}
+h2 {
+    font-family: "Merriweather", serif;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: left;
+    text-transform: uppercase;
+}
+p {
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 23px;
+    padding: 0 20px;
+}
+.wrapper {
+    max-width: 100vw;
+    width: 100%;
+    overflow: hidden;
+}
+.content {
+    max-width: 1222px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+section {
+    max-width: 100%;
+    width: 100%;
+}
+.blue_text {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: var(--blue);
+}
+
+.notice-wrapper {
+    position: relative;
+    width: 100vw;
+    height: 38px;
+    max-width: 100%;
+    padding: 10px 0;
+    overflow-x: hidden;
+    background-color: var(--red);
+    z-index: 10;
+}
+.notice-content {
+    position: absolute;
+    white-space: nowrap;
+    will-change: transform;
+    animation: notice 25s linear infinite;
+    display: flex;
+    align-items: center;
+}
+.notice-content p {
+    color: var(--white);
+    font-family: "Merriweather", serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    padding: 0 12px;
+}
+.notice-content p:first-child {
+    padding-left: 100vw;
+}
+footer {
+    background-color: #E9DED4;
+}
+
+@keyframes notice {
+    from { transform: translateX(0); }
+    to { transform: translateX(-100%); }
+}
+
+@media (min-width: 1366px) {
+
+    h1 {
+        font-size: 60px;
+        line-height: 66px;
+        padding: 0;
+    }
+    h2 {
+        font-size: 54px;
+        line-height: 65px;
+    }
+}

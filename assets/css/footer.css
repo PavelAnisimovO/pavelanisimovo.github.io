@@ -1,0 +1,13 @@
+.footer_content {
+    padding: 40px 20px 60px 20px;
+    background-color: #E9DED4;
+}
+.footer_content p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: left;
+    color: var(--grey);
+    opacity: .6;
+    padding: 0;
+}
